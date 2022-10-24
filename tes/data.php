@@ -25,7 +25,7 @@
 				<?php if (isset ($_POST['jenisKelamin']))
 				{
 					$jenisKelamin=$_POST['jenisKelamin'];
-    				echo "".$jenisKelamin;
+    					echo "".$jenisKelamin;
 				} ?>
 			</td>
 		</tr>
@@ -49,7 +49,7 @@
 				<?php if (isset ($_POST['Fakultas'])) 
 				{
 					$Fakultas=$_POST['Fakultas'];
-					echo"".$Fakultas;
+					echo "".$Fakultas;
 				} ?>
 			</td>
 		</tr>
@@ -61,7 +61,7 @@
 				<?php if (isset ($_POST['jurusan'])) 
 				{
 					$jurusan=$_POST['jurusan'];
-					echo"".$jurusan;
+					echo "".$jurusan;
 				} ?>
 			</td>
 		</tr>
