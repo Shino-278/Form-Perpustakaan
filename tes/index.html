@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan 6</title>
+</head>
+<body>
+
+	<!-- Bagian Atas -->
+	<table border="0" cellpadding="4px" cellspacing="4px" width="550px">
+
+		<tr>
+			<td align="center"><img src="unindra.png" width="100"></td>
+			<td colspan="3" align="center"><h2>PERPUSTAKAAN <br> Universitas Idraprasta PGRI <br> </h2></td>
+		</tr>
+
+		<tr>
+			<td colspan="3"><hr size="5px" color="blue" ></td>
+		</tr>
+
+		<tr>
+			<th colspan="3" align="center">Formulir Registrasi Anggota</th>
+		</tr>
+
+	<!-- Bagian Form -->
+	<form method="post" action="data.php">
+		<tr>
+			<td>Nama Lengkap</td>
+			<td>:</td>
+			<td><input type="text" name="nama"></td>
+		</tr>
+
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td>:</td>
+			<td>
+				<input type="radio" name="jenisKelamin" value="Laki-Laki">Laki-Laki 
+				<input type="radio" name="jenisKelamin" value="Perempuan">Perempuan
+			</td>
+		</tr>
+
+		<tr>
+			<td>Tempat Tanggal Lahir</td>
+			<td>:</td>
+			<td><input type="text" name="tempat"> , <input type="date" name="bday"></td>
+		</tr>
+
+		<tr>
+			<td>NPM</td>
+			<td>:</td>
+			<td><input type="text" name="npm"></td>
+		</tr>
+		
+		<tr>
+			<td>Fakultas</td>
+			<td>:</td>
+			<td>
+				<input type="radio" name="Fakultas" value="FTMIPA">FTMIPA 
+				<input type="radio" name="Fakultas" value="FIPPS">FIPPS
+				<input type="radio" name="Fakultas" value="FBS">FBS
+				<input type="radio" name="Fakultas" value="PASCASARJANA">PASCA SARJANA
+			</td>
+		</tr>
+
+		
+
+		<tr>
+			<td>Program Studi</td>
+			<td>:</td>
+			<td>
+				<select name="jurusan">
+					<option value="Informatika">Informatika</option>
+					<option value="Teknik Industri">Teknik Industri</option>
+					<option value="Pen.Biologi">Pen.Biologi</option>
+					<option value="Pen.Matematika">Pen.Matematika</option>
+					<option value="Pen.Fisika">Pen.Fisika</option>
+					<option value="Pen.Ekonomi">Pen.Ekonomi</option>
+					<option value="Pen.Sejarah">Pen.Sejarah</option>
+					<option value="Pen.Bhs Indonesia">Pen.Bhs Indonesia</option>
+					<option value="Pen.Bhs Inggris">Pen.Bhs Inggris</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>Kategori Buku</td>
+			<td>:</td>
+			<td>
+				<input type="checkbox" name="buku[]" value="Pendidikan">Pendidikan <br>
+				<input type="checkbox" name="buku[]" value="Ilmu Sosial">Ilmu Sosial <br>
+				<input type="checkbox" name="buku[]" value="Ilmu Alam">Ilmu Alam <br>
+				<input type="checkbox" name="buku[]" value="Agama">Agama <br>
+				<input type="checkbox" name="buku[]" value="Budaya">Budaya <br>
+				<input type="checkbox" name="buku[]" value="Matematika & Sains">Matematika & Sains
+			</td>
+		</tr>
+
+		<tr>
+			<td><button type="submit">Daftar</button> <button type="reset">Muat Ulang</button></td>
+		</tr>
+	</form>
+	</table>
+
+</body>
+</html>
